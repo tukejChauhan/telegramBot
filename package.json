@@ -4,7 +4,8 @@
   "description": "Telegram Bot to get Weather Update",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/tukejChauhan/telegramBot/issues"
   },
-  "homepage": "https://github.com/tukejChauhan/telegramBot#readme"
+  "homepage": "https://github.com/tukejChauhan/telegramBot#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "node-telegram-bot-api": "^0.61.0"
+  }
 }
